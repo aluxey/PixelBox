@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom';
 import '../styles/navbar.css';
+import logo from '../assets/pixelBoxLogo.png';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div style={{ display: 'flex', alignItems: 'center' }}>
+        <img src={logo} className='logo' />
         <Link to="/client" className="navbar-link navbar-brand">
           {' '}
           PixelBox{' '}

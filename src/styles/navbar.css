@@ -97,3 +97,10 @@
     margin: 6px 0;
   }
 }
+
+.logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
