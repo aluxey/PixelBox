@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+:root {
+  --color-primary: #8A2BE2;
+  --color-secondary: #44c4c4;
+  --color-background: #121212;
+  --color-surface: #1E1E1E;
+  --color-text: #E0E0E0;
+  --color-text-muted: #A0A0A0;
+  --color-accent: #39FF14;
+  --color-error: #FF4C4C;
+  --color-success: #B4FF00;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: 'Share Tech Mono', monospace;
+}
