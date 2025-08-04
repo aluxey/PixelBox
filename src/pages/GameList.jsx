@@ -1,6 +1,6 @@
-// src/pages/GameList.jsx
 import React, { useEffect, useState } from 'react';
 import { fetchGames } from '../api/rawg';
+import GameCard from '../components/gameCard';
 import '../styles/gameList.css';
 
 const GameList = () => {
@@ -17,12 +17,7 @@ const GameList = () => {
 
       <div className="game-grid">
         {games.map(game => (
-          <div key={game.id} className="game-card">
-            <img src={game.background_image} alt={game.name} className="game-image" />
-            <h3>{game.name}</h3>
-            <p>Note : {game.rating}</p>
-            <p>Sorti le : {game.released}</p>
-          </div>
+          <GameCard key={game.id} game={game} />
         ))}
       </div>
 
