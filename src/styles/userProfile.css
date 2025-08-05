@@ -1,0 +1,63 @@
+.profile-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  color: #fff;
+}
+
+.profile-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 10px;
+}
+
+.comment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.comment-card {
+  display: flex;
+  gap: 16px;
+  background-color: #1e1e1e;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.comment-card:hover {
+  transform: translateY(-3px);
+}
+
+.comment-thumbnail {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.comment-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.comment-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.comment-text {
+  margin: 10px 0;
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+.comment-rating {
+  color: #aaa;
+  font-size: 0.9rem;
+}
