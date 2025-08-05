@@ -1,0 +1,10 @@
+.game-details-container {
+  padding: 2rem 5vw;
+}
+
+.game-detail-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  margin: 1rem 0;
+}
